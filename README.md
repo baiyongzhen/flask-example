@@ -36,7 +36,7 @@ See also
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
 - 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <project_name>` or `$ project_name` with basic CLI argument parsing.
+- 🎯 Entry points to execute your program using `python -m <flask_example>` or `$ flask_example` with basic CLI argument parsing.
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
@@ -45,24 +45,24 @@ See also
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
 
 ---
-# project_name Flask Application
+# flask_example Flask Application
 
-project_description
+Awesome flask_example created by baiyongzhen
 
 ## Installation
 
 From source:
 
 ```bash
-git clone https://github.com/author_name/project_urlname project_name
-cd project_name
+git clone https://github.com/baiyongzhen/flask-example flask_example
+cd flask_example
 make install
 ```
 
 From pypi:
 
 ```bash
-pip install project_name
+pip install flask_example
 ```
 
 ## Executing
@@ -72,13 +72,13 @@ This application has a CLI interface that extends the Flask CLI.
 Just run:
 
 ```bash
-$ project_name
+$ flask_example
 ```
 
 or
 
 ```bash
-$ python -m project_name
+$ python -m flask_example
 ```
 
 To see the help message and usage instructions.
@@ -86,10 +86,10 @@ To see the help message and usage instructions.
 ## First run
 
 ```bash
-project_name create-db   # run once
-project_name populate-db  # run once (optional)
-project_name add-user -u admin -p 1234  # ads a user
-project_name run
+flask_example create-db   # run once
+flask_example populate-db  # run once (optional)
+flask_example add-user -u admin -p 1234  # ads a user
+flask_example run
 ```
 
 Go to:
